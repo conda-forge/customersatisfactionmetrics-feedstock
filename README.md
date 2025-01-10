@@ -7,7 +7,7 @@ Home: http://github.com/pescheckit/customersatisfactionmetrics
 
 Package license: MIT
 
-Summary: A short description of your package
+Summary: This Django package allows you to create and manage surveys including CSAT, NPS, CES, and Generic Surveys. It supports both anonymous and logged-in user responses with user metadata tracking.
 
 Current build status
 ====================
