@@ -1,5 +1,5 @@
 {% set name = "customersatisfactionmetrics" %}
-{% set version = "1.0.8" %}
+{% set version = "1.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/customersatisfactionmetrics-{{ version }}.tar.gz
-  sha256: 2005225742796baba66dff0867088453e601f782d41ee609c4483f08773726a8
+  sha256: 3074b61bee2775b3221c5b0dbfc759a955e983e8c7c47e923d9843477bc3c66e
 
 build:
   noarch: python
