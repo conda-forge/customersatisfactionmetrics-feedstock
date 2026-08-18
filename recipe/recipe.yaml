@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: customersatisfactionmetrics
-  version: "1.0.9"
+  version: "1.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/customersatisfactionmetrics-${{ version }}.tar.gz
-  sha256: 3074b61bee2775b3221c5b0dbfc759a955e983e8c7c47e923d9843477bc3c66e
+  sha256: 17744a47af17562400a1f7af8fd143937746f6dbfc86b7e077810a512f38ebd3
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
